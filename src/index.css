@@ -1,0 +1,45 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Toastify__toast-container {
+  width: auto;
+  min-width: 320px;
+  max-width: 400px;
+}
+
+.Toastify__toast {
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  padding: 12px 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #10b981, #047857);
+  color: white;
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: white;
+}
+
+.Toastify__toast--info {
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+  color: white;
+}
+
+.Toastify__progress-bar--success {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.Toastify__progress-bar--error {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.Toastify__progress-bar--info {
+  background: rgba(255, 255, 255, 0.3);
+}

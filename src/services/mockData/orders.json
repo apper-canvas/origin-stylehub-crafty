@@ -1,0 +1,96 @@
+[
+  {
+    "Id": 1,
+    "orderNumber": "ORD-2024-001",
+    "userEmail": "user@example.com",
+    "status": "delivered",
+    "total": 389.97,
+    "items": [
+      {
+        "productId": 1,
+        "name": "Elegant Silk Blouse",
+        "price": 129.99,
+        "quantity": 1,
+        "size": "M",
+        "color": "White",
+        "image": "https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?w=800"
+      },
+      {
+        "productId": 2,
+        "name": "Classic Denim Jacket",
+        "price": 89.99,
+        "quantity": 1,
+        "size": "M",
+        "color": "Classic Blue",
+        "image": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=800"
+      },
+      {
+        "productId": 9,
+        "name": "Ankle Boots",
+        "price": 159.99,
+        "quantity": 1,
+        "size": "8",
+        "color": "Black",
+        "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800"
+      }
+    ],
+    "shippingAddress": {
+      "name": "Sarah Martinez",
+      "street": "123 Fashion Ave",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "country": "United States"
+    },
+    "paymentMethod": "Credit Card",
+    "createdAt": "2024-03-01T10:00:00Z",
+    "deliveredAt": "2024-03-05T14:30:00Z"
+  },
+  {
+    "Id": 2,
+    "orderNumber": "ORD-2024-002",
+    "userEmail": "user@example.com",
+    "status": "delivered",
+    "total": 429.97,
+    "items": [
+      {
+        "productId": 3,
+        "name": "Cashmere Sweater",
+        "price": 199.99,
+        "quantity": 1,
+        "size": "M",
+        "color": "Beige",
+        "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800"
+      },
+      {
+        "productId": 4,
+        "name": "Tailored Blazer",
+        "price": 179.99,
+        "quantity": 1,
+        "size": "M",
+        "color": "Black",
+        "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800"
+      },
+      {
+        "productId": 5,
+        "name": "Cotton T-Shirt",
+        "price": 29.99,
+        "quantity": 2,
+        "size": "M",
+        "color": "White",
+        "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800"
+      }
+    ],
+    "shippingAddress": {
+      "name": "John Doe",
+      "street": "456 Style Street",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipCode": "90210",
+      "country": "United States"
+    },
+    "paymentMethod": "Credit Card",
+    "createdAt": "2024-03-08T15:20:00Z",
+    "deliveredAt": "2024-03-12T11:45:00Z"
+  }
+]

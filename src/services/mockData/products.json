@@ -1,0 +1,320 @@
+[
+  {
+    "Id": 1,
+    "name": "Elegant Silk Blouse",
+    "description": "Luxurious silk blouse with a timeless design. Perfect for both professional and casual settings. Features mother-of-pearl buttons and French seams.",
+    "price": 129.99,
+    "originalPrice": 159.99,
+    "images": [
+      "https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?w=800",
+      "https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?w=800",
+      "https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?w=800"
+    ],
+    "category": "women",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      {"name": "White", "hex": "#FFFFFF"},
+      {"name": "Black", "hex": "#000000"},
+      {"name": "Navy", "hex": "#1F2937"}
+    ],
+    "stock": 25,
+    "rating": 4.8,
+    "reviews": [
+      {"rating": 5, "comment": "Beautiful quality, fits perfectly!", "author": "Sarah M."},
+      {"rating": 4, "comment": "Love the silk fabric, very elegant", "author": "Emma K."}
+    ],
+    "featured": true,
+    "createdAt": "2024-01-15T10:00:00Z"
+  },
+  {
+    "Id": 2,
+    "name": "Classic Denim Jacket",
+    "description": "Versatile denim jacket crafted from premium cotton denim. Features classic styling with modern fit. Perfect layering piece for any season.",
+    "price": 89.99,
+    "originalPrice": 119.99,
+    "images": [
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=800",
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=800",
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=800"
+    ],
+    "category": "women",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      {"name": "Classic Blue", "hex": "#4F7CAC"},
+      {"name": "Black", "hex": "#000000"},
+      {"name": "White", "hex": "#F8F8FF"}
+    ],
+    "stock": 18,
+    "rating": 4.6,
+    "reviews": [
+      {"rating": 5, "comment": "Perfect fit and great quality!", "author": "Jessica L."},
+      {"rating": 4, "comment": "Classic style, goes with everything", "author": "Maria R."}
+    ],
+    "featured": true,
+    "createdAt": "2024-01-20T14:30:00Z"
+  },
+  {
+    "Id": 3,
+    "name": "Cashmere Sweater",
+    "description": "Ultra-soft cashmere sweater with ribbed details. Lightweight yet warm, perfect for layering or wearing alone. Dry clean only.",
+    "price": 199.99,
+    "images": [
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800",
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800",
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800"
+    ],
+    "category": "women",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": [
+      {"name": "Beige", "hex": "#F5F5DC"},
+      {"name": "Gray", "hex": "#8B8B8B"},
+      {"name": "Black", "hex": "#000000"}
+    ],
+    "stock": 12,
+    "rating": 4.9,
+    "reviews": [
+      {"rating": 5, "comment": "Incredibly soft and luxurious!", "author": "Lisa W."},
+      {"rating": 5, "comment": "Worth every penny, amazing quality", "author": "Jennifer H."}
+    ],
+    "featured": true,
+    "createdAt": "2024-01-25T09:15:00Z"
+  },
+  {
+    "Id": 4,
+    "name": "Tailored Blazer",
+    "description": "Sharp, tailored blazer perfect for professional settings. Features structured shoulders and a flattering silhouette. Made from premium wool blend.",
+    "price": 179.99,
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800"
+    ],
+    "category": "women",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      {"name": "Black", "hex": "#000000"},
+      {"name": "Navy", "hex": "#1F2937"},
+      {"name": "Gray", "hex": "#8B8B8B"}
+    ],
+    "stock": 8,
+    "rating": 4.7,
+    "reviews": [
+      {"rating": 5, "comment": "Perfect for work, very professional", "author": "Amanda C."},
+      {"rating": 4, "comment": "Great fit, high quality fabric", "author": "Rachel D."}
+    ],
+    "featured": false,
+    "createdAt": "2024-02-01T11:45:00Z"
+  },
+  {
+    "Id": 5,
+    "name": "Cotton T-Shirt",
+    "description": "Essential cotton t-shirt made from organic cotton. Soft, comfortable, and versatile. Perfect for layering or wearing on its own.",
+    "price": 29.99,
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800",
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800",
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800"
+    ],
+    "category": "women",
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "White", "hex": "#FFFFFF"},
+      {"name": "Black", "hex": "#000000"},
+      {"name": "Gray", "hex": "#8B8B8B"},
+      {"name": "Navy", "hex": "#1F2937"}
+    ],
+    "stock": 50,
+    "rating": 4.4,
+    "reviews": [
+      {"rating": 4, "comment": "Great basic tee, comfortable fit", "author": "Sophie T."},
+      {"rating": 5, "comment": "Love the soft fabric, bought multiple colors", "author": "Anna P."}
+    ],
+    "featured": false,
+    "createdAt": "2024-02-05T16:20:00Z"
+  },
+  {
+    "Id": 6,
+    "name": "Leather Crossbody Bag",
+    "description": "Elegant leather crossbody bag with adjustable strap. Features multiple compartments and gold-tone hardware. Perfect for everyday use.",
+    "price": 149.99,
+    "originalPrice": 189.99,
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800",
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800",
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800"
+    ],
+    "category": "accessories",
+    "sizes": ["One Size"],
+    "colors": [
+      {"name": "Black", "hex": "#000000"},
+      {"name": "Brown", "hex": "#8B4513"},
+      {"name": "Tan", "hex": "#D2B48C"}
+    ],
+    "stock": 15,
+    "rating": 4.8,
+    "reviews": [
+      {"rating": 5, "comment": "Beautiful bag, perfect size for daily use", "author": "Caroline M."},
+      {"rating": 4, "comment": "Great quality leather, love the design", "author": "Victoria S."}
+    ],
+    "featured": true,
+    "createdAt": "2024-02-10T13:00:00Z"
+  },
+  {
+    "Id": 7,
+    "name": "Wool Coat",
+    "description": "Luxurious wool coat with classic silhouette. Features premium buttons and silk lining. Perfect for cold weather while maintaining elegance.",
+    "price": 299.99,
+    "images": [
+      "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=800",
+      "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=800",
+      "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=800"
+    ],
+    "category": "women",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      {"name": "Black", "hex": "#000000"},
+      {"name": "Navy", "hex": "#1F2937"},
+      {"name": "Camel", "hex": "#C19A6B"}
+    ],
+    "stock": 6,
+    "rating": 4.9,
+    "reviews": [
+      {"rating": 5, "comment": "Absolutely beautiful coat, worth the investment", "author": "Elizabeth R."},
+      {"rating": 5, "comment": "Stunning quality and fit, very warm", "author": "Catherine L."}
+    ],
+    "featured": true,
+    "createdAt": "2024-02-15T10:30:00Z"
+  },
+  {
+    "Id": 8,
+    "name": "Designer Sunglasses",
+    "description": "Stylish sunglasses with UV protection. Features lightweight frames and polarized lenses. Includes premium case and cleaning cloth.",
+    "price": 79.99,
+    "originalPrice": 99.99,
+    "images": [
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=800",
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=800",
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=800"
+    ],
+    "category": "accessories",
+    "sizes": ["One Size"],
+    "colors": [
+      {"name": "Black", "hex": "#000000"},
+      {"name": "Brown", "hex": "#8B4513"},
+      {"name": "Gold", "hex": "#FFD700"}
+    ],
+    "stock": 22,
+    "rating": 4.6,
+    "reviews": [
+      {"rating": 5, "comment": "Great sunglasses, very stylish!", "author": "Natalie B."},
+      {"rating": 4, "comment": "Good quality for the price", "author": "Michelle G."}
+    ],
+    "featured": false,
+    "createdAt": "2024-02-20T15:45:00Z"
+  },
+  {
+    "Id": 9,
+    "name": "Ankle Boots",
+    "description": "Versatile ankle boots crafted from premium leather. Features comfortable heel and durable sole. Perfect for both casual and dressy occasions.",
+    "price": 159.99,
+    "images": [
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800",
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800",
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800"
+    ],
+    "category": "shoes",
+    "sizes": ["6", "6.5", "7", "7.5", "8", "8.5", "9", "9.5", "10"],
+    "colors": [
+      {"name": "Black", "hex": "#000000"},
+      {"name": "Brown", "hex": "#8B4513"},
+      {"name": "Tan", "hex": "#D2B48C"}
+    ],
+    "stock": 20,
+    "rating": 4.7,
+    "reviews": [
+      {"rating": 5, "comment": "Comfortable and stylish, wear them all the time", "author": "Rebecca F."},
+      {"rating": 4, "comment": "Great boots, true to size", "author": "Hannah M."}
+    ],
+    "featured": true,
+    "createdAt": "2024-02-25T12:15:00Z"
+  },
+  {
+    "Id": 10,
+    "name": "Men's Dress Shirt",
+    "description": "Classic dress shirt made from premium cotton. Features spread collar and French cuffs. Perfect for business or formal occasions.",
+    "price": 69.99,
+    "images": [
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800",
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800",
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800"
+    ],
+    "category": "men",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "White", "hex": "#FFFFFF"},
+      {"name": "Light Blue", "hex": "#ADD8E6"},
+      {"name": "Gray", "hex": "#8B8B8B"}
+    ],
+    "stock": 30,
+    "rating": 4.5,
+    "reviews": [
+      {"rating": 4, "comment": "Good quality shirt, fits well", "author": "Michael J."},
+      {"rating": 5, "comment": "Excellent for work, professional look", "author": "David S."}
+    ],
+    "featured": false,
+    "createdAt": "2024-03-01T09:00:00Z"
+  },
+  {
+    "Id": 11,
+    "name": "Men's Chinos",
+    "description": "Comfortable chino pants with modern fit. Made from cotton twill with stretch for all-day comfort. Perfect for casual or business casual looks.",
+    "price": 59.99,
+    "images": [
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=800",
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=800",
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=800"
+    ],
+    "category": "men",
+    "sizes": ["30", "32", "34", "36", "38", "40"],
+    "colors": [
+      {"name": "Khaki", "hex": "#F0E68C"},
+      {"name": "Navy", "hex": "#1F2937"},
+      {"name": "Olive", "hex": "#808000"}
+    ],
+    "stock": 25,
+    "rating": 4.4,
+    "reviews": [
+      {"rating": 4, "comment": "Comfortable fit, good quality", "author": "James T."},
+      {"rating": 5, "comment": "Perfect for work, very comfortable", "author": "Robert K."}
+    ],
+    "featured": false,
+    "createdAt": "2024-03-05T14:20:00Z"
+  },
+  {
+    "Id": 12,
+    "name": "Silk Scarf",
+    "description": "Luxurious silk scarf with elegant print. Versatile accessory that can be worn multiple ways. Features hand-rolled edges and premium silk.",
+    "price": 89.99,
+    "originalPrice": 119.99,
+    "images": [
+      "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=800",
+      "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=800",
+      "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=800"
+    ],
+    "category": "accessories",
+    "sizes": ["One Size"],
+    "colors": [
+      {"name": "Blue Print", "hex": "#4169E1"},
+      {"name": "Red Print", "hex": "#DC143C"},
+      {"name": "Green Print", "hex": "#228B22"}
+    ],
+    "stock": 18,
+    "rating": 4.8,
+    "reviews": [
+      {"rating": 5, "comment": "Beautiful scarf, adds elegance to any outfit", "author": "Grace P."},
+      {"rating": 4, "comment": "Love the quality and design", "author": "Isabella N."}
+    ],
+    "featured": true,
+    "createdAt": "2024-03-10T11:30:00Z"
+  }
+]

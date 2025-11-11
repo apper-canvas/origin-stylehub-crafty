@@ -1,0 +1,102 @@
+[
+  {
+    "Id": 1,
+    "productId": 1,
+    "userEmail": "sarah.martinez@email.com",
+    "userName": "Sarah M.",
+    "rating": 5,
+    "comment": "Beautiful quality, fits perfectly! The silk feels amazing and the color is exactly as shown.",
+    "verified": true,
+    "createdAt": "2024-03-15T14:30:00Z"
+  },
+  {
+    "Id": 2,
+    "productId": 1,
+    "userEmail": "emma.klein@email.com",
+    "userName": "Emma K.",
+    "rating": 4,
+    "comment": "Love the silk fabric, very elegant. Only wish it came in more colors.",
+    "verified": true,
+    "createdAt": "2024-03-10T09:15:00Z"
+  },
+  {
+    "Id": 3,
+    "productId": 2,
+    "userEmail": "jessica.lopez@email.com",
+    "userName": "Jessica L.",
+    "rating": 5,
+    "comment": "Perfect fit and great quality! Goes with everything in my wardrobe.",
+    "verified": true,
+    "createdAt": "2024-03-12T16:45:00Z"
+  },
+  {
+    "Id": 4,
+    "productId": 2,
+    "userEmail": "maria.rodriguez@email.com",
+    "userName": "Maria R.",
+    "rating": 4,
+    "comment": "Classic style, goes with everything. Denim quality is excellent.",
+    "verified": true,
+    "createdAt": "2024-03-08T11:20:00Z"
+  },
+  {
+    "Id": 5,
+    "productId": 3,
+    "userEmail": "lisa.wang@email.com",
+    "userName": "Lisa W.",
+    "rating": 5,
+    "comment": "Incredibly soft and luxurious! Worth every penny. Perfect for layering or wearing alone.",
+    "verified": true,
+    "createdAt": "2024-03-14T13:00:00Z"
+  },
+  {
+    "Id": 6,
+    "productId": 3,
+    "userEmail": "jennifer.harris@email.com",
+    "userName": "Jennifer H.",
+    "rating": 5,
+    "comment": "Worth every penny, amazing quality. The cashmere is incredibly soft and warm.",
+    "verified": true,
+    "createdAt": "2024-03-11T10:30:00Z"
+  },
+  {
+    "Id": 7,
+    "productId": 4,
+    "userEmail": "amanda.chen@email.com",
+    "userName": "Amanda C.",
+    "rating": 5,
+    "comment": "Perfect for work, very professional. The fit is flattering and the fabric drapes beautifully.",
+    "verified": true,
+    "createdAt": "2024-03-13T15:45:00Z"
+  },
+  {
+    "Id": 8,
+    "productId": 4,
+    "userEmail": "rachel.davis@email.com",
+    "userName": "Rachel D.",
+    "rating": 4,
+    "comment": "Great fit, high quality fabric. Perfect addition to my professional wardrobe.",
+    "verified": true,
+    "createdAt": "2024-03-09T12:15:00Z"
+  },
+  {
+    "Id": 9,
+    "productId": 5,
+    "userEmail": "sophie.taylor@email.com",
+    "userName": "Sophie T.",
+    "rating": 4,
+    "comment": "Great basic tee, comfortable fit. The organic cotton feels really nice.",
+    "verified": true,
+    "createdAt": "2024-03-16T14:20:00Z"
+  },
+  {
+    "Id": 10,
+    "productId": 5,
+    "userEmail": "anna.parker@email.com",
+    "userName": "Anna P.",
+    "rating": 5,
+    "comment": "Love the soft fabric, bought multiple colors! Perfect for layering.",
+    "verified": true,
+    "createdAt": "2024-03-07T09:45:00Z"
+  }
+]
