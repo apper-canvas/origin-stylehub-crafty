@@ -27,7 +27,42 @@ export const orderService = {
     const userOrders = ordersData.filter(order => order.userEmail === userEmail)
     
     return userOrders.some(order => 
-      order.items.some(item => item.productId === parseInt(productId))
+order.items.some(item => item.productId === parseInt(productId))
     )
+  },
+
+  // Create a new order
+  async create(orderData) {
+    await delay(500)
+    
+    // Generate new ID
+    const maxId = ordersData.length > 0 ? Math.max(...ordersData.map(o => o.Id)) : 0
+    const newId = maxId + 1
+    
+    // Create order object
+    const newOrder = {
+      Id: newId,
+      userEmail: orderData.shippingAddress.email,
+      status: "confirmed",
+      createdAt: new Date().toISOString(),
+      items: orderData.items.map(item => ({
+        productId: item.Id,
+        name: item.name,
+        price: item.price,
+        quantity: item.quantity,
+        image: item.image
+      })),
+      subtotal: orderData.subtotal,
+      shipping: orderData.shipping,
+      tax: orderData.tax,
+      total: orderData.total,
+      shippingAddress: orderData.shippingAddress,
+      paymentMethod: orderData.paymentMethod
+    }
+    
+    // Add to mock data (in real app, this would be API call)
+    ordersData.push(newOrder)
+    
+    return { ...newOrder }
   }
 }
