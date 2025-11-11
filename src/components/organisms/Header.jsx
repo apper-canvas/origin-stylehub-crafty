@@ -1,16 +1,17 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { AnimatePresence, motion } from "framer-motion";
+import ApperIcon from "@/components/ApperIcon";
+import Shop from "@/components/pages/Shop";
+import Reviews from "@/components/pages/Reviews";
+import Login from "@/components/pages/Login";
+import Home from "@/components/pages/Home";
+import MobileMenu from "@/components/molecules/MobileMenu";
+import SearchBar from "@/components/molecules/SearchBar";
 import { useAuth } from "@/layouts/Root";
 import { selectWishlistItemsCount } from "@/store/slices/wishlistSlice";
 import { selectCartItemsCount, toggleCart } from "@/store/slices/cartSlice";
-import ApperIcon from "@/components/ApperIcon";
-import SearchBar from "@/components/molecules/SearchBar";
-import MobileMenu from "@/components/molecules/MobileMenu";
-import Home from "@/components/pages/Home";
-import Reviews from "@/components/pages/Reviews";
-import Shop from "@/components/pages/Shop";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -53,7 +54,6 @@ const Header = () => {
     await logout()
     setIsDropdownOpen(false)
   }
-
   return (
     <>
       <header className="bg-surface shadow-sm sticky top-0 z-40">
