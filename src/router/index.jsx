@@ -10,9 +10,10 @@ const Cart = lazy(() => import("@/components/pages/Cart"));
 const Wishlist = lazy(() => import("@/components/pages/Wishlist"));
 const Checkout = lazy(() => import("@/components/pages/Checkout"));
 const OrderConfirmation = lazy(() => import("@/components/pages/OrderConfirmation"));
+const OrderHistory = lazy(() => import("@/components/pages/OrderHistory"));
+const OrderTracking = lazy(() => import("@/components/pages/OrderTracking"));
 const Reviews = lazy(() => import("@/components/pages/Reviews"));
 const NotFound = lazy(() => import("@/components/pages/NotFound"));
-
 // Loading component wrapper
 const LoadingSuspense = ({ children }) => (
   <Suspense
@@ -64,6 +65,14 @@ const mainRoutes = [
   {
     path: "reviews",
     element: <LoadingSuspense><Reviews /></LoadingSuspense>
+},
+  {
+    path: "orders",
+    element: <LoadingSuspense><OrderHistory /></LoadingSuspense>
+  },
+  {
+    path: "orders/tracking/:orderId",
+    element: <LoadingSuspense><OrderTracking /></LoadingSuspense>
   },
   {
     path: "*",

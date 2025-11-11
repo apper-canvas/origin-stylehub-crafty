@@ -97,13 +97,31 @@ const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all duration-250 group-hover:w-full"></span>
             </Link>
             
-            <Link
+<Link
               to="/shop?sale=true"
               className="text-primary hover:text-accent transition-colors font-medium relative group"
             >
               Sale
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all duration-250 group-hover:w-full"></span>
             </Link>
+
+            <div className="relative group">
+              <button className="text-primary hover:text-accent transition-colors font-medium flex items-center gap-1">
+                Account
+                <ApperIcon name="ChevronDown" size={16} />
+              </button>
+              
+              <div className="absolute top-full left-0 mt-2 w-48 bg-surface rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-secondary">
+                <div className="py-2">
+                  <Link
+                    to="/orders"
+                    className="block px-4 py-2 text-sm text-primary hover:bg-secondary hover:text-accent transition-colors"
+                  >
+                    Order History
+                  </Link>
+                </div>
+              </div>
+            </div>
           </nav>
 {/* Search, Wishlist and Cart */}
           <div className="flex items-center space-x-4">

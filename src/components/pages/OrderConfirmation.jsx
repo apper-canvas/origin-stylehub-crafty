@@ -249,13 +249,23 @@ const OrderConfirmation = () => {
           className="text-center space-y-4"
         >
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to="/shop"
-              className="inline-flex items-center px-8 py-3 bg-accent text-surface rounded-md hover:bg-accent/90 transition-colors font-medium"
-            >
-              <ApperIcon name="ArrowRight" size={16} className="mr-2" />
-              Continue Shopping
-            </Link>
+<div className="flex flex-col sm:flex-row gap-4">
+              <Link
+                to={`/orders/tracking/${order.Id}`}
+                className="inline-flex items-center justify-center px-6 py-3 bg-accent text-surface rounded-md hover:bg-accent/90 transition-colors font-medium"
+              >
+                <ApperIcon name="Eye" size={16} className="mr-2" />
+                Track Order
+              </Link>
+              
+              <Link
+                to="/shop"
+                className="inline-flex items-center justify-center px-6 py-3 border border-secondary text-primary rounded-md hover:bg-secondary transition-colors font-medium"
+              >
+                <ApperIcon name="ArrowRight" size={16} className="mr-2" />
+                Continue Shopping
+              </Link>
+            </div>
             
             <button
               onClick={() => window.print()}

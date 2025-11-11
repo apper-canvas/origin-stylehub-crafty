@@ -11,6 +11,12 @@ export const orderService = {
       .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
   },
 
+  // Get all orders (for general order history when no user specified)
+  async getAllOrders() {
+    await delay(300)
+    return ordersData.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
+  },
+
   // Get order by ID
   async getById(id) {
     await delay(200)
