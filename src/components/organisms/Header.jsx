@@ -215,12 +215,13 @@ const Header = () => {
         {/* Mobile Search Bar */}
         <div className="lg:hidden border-t border-secondary px-4 py-3">
           <SearchBar onSearch={handleSearchSubmit} autoFocus={false} />
-        </div>
+</div>
       </header>
 
       {/* Mobile Menu */}
       <MobileMenu isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} categories={categories} />
     </>
+  );
 }
 
-export default Header
+export default Header;
