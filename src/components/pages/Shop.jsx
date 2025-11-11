@@ -37,7 +37,7 @@ const Shop = () => {
     try {
       setLoading(true)
       setError("")
-      const fetchedProducts = await productService.getAll({ ...filters, sortBy })
+const fetchedProducts = await productService.getAll({ ...filters, sortBy })
       setProducts(fetchedProducts)
     } catch (err) {
       setError(err.message)

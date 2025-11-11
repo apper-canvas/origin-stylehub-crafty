@@ -81,7 +81,7 @@ const Checkout = () => {
       return
     }
 
-    setLoading(true)
+setLoading(true)
     try {
       const orderData = {
         items: cartItems,

@@ -1,17 +1,20 @@
-import { useState, useEffect } from "react"
-import { useParams, Link } from "react-router-dom"
-import { useDispatch, useSelector } from "react-redux"
-import { motion } from "framer-motion"
-import ApperIcon from "@/components/ApperIcon"
-import ProductCard from "@/components/molecules/ProductCard"
-import ReviewCard from "@/components/molecules/ReviewCard"
-import Loading from "@/components/ui/Loading"
-import Error from "@/components/ui/Error"
-import { productService } from "@/services/api/productService"
-import { reviewService } from "@/services/api/reviewService"
-import { addToCart } from "@/store/slices/cartSlice"
-import { addToWishlist, removeFromWishlist, selectIsInWishlist } from "@/store/slices/wishlistSlice"
-import { toast } from "react-toastify"
+import React, { useEffect, useState } from "react";
+import { Link, useParams } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { motion } from "framer-motion";
+import { productService } from "@/services/api/productService";
+import { reviewService } from "@/services/api/reviewService";
+import { toast } from "react-toastify";
+import { addToWishlist, removeFromWishlist, selectIsInWishlist } from "@/store/slices/wishlistSlice";
+import { addToCart } from "@/store/slices/cartSlice";
+import ApperIcon from "@/components/ApperIcon";
+import Loading from "@/components/ui/Loading";
+import Error from "@/components/ui/Error";
+import ProductCard from "@/components/molecules/ProductCard";
+import ReviewCard from "@/components/molecules/ReviewCard";
+import Home from "@/components/pages/Home";
+import Reviews from "@/components/pages/Reviews";
+import Shop from "@/components/pages/Shop";
 
 const ProductDetail = () => {
   const { id } = useParams()
@@ -27,8 +30,9 @@ const ProductDetail = () => {
   const [selectedColor, setSelectedColor] = useState("")
   const [quantity, setQuantity] = useState(1)
   const [activeTab, setActiveTab] = useState("reviews")
-  const isInWishlist = useSelector(selectIsInWishlist(product?.Id))
-const loadProduct = async () => {
+const isInWishlist = useSelector(selectIsInWishlist(product?.Id))
+
+  const loadProduct = async () => {
     try {
       setLoading(true)
       setError("")
@@ -63,7 +67,7 @@ const loadProduct = async () => {
     window.scrollTo(0, 0)
   }, [id])
 
-const handleAddToCart = () => {
+  const handleAddToCart = () => {
     if (!selectedSize && product.sizes?.length > 0) {
       toast.error("Please select a size")
       return
@@ -83,17 +87,17 @@ const handleAddToCart = () => {
       image: product.images[0],
       quantity
     }))
-    
-    toast.success("Added to cart!")
+
+    toast.success(`Added ${product.name} to cart`)
   }
 
-  const handleWishlistToggle = () => {
+  const handleToggleWishlist = () => {
     if (isInWishlist) {
       dispatch(removeFromWishlist(product.Id))
       toast.success(`Removed ${product.name} from wishlist`)
     } else {
       dispatch(addToWishlist(product))
-      toast.success(`Added ${product.name} to wishlist`)
+toast.success(`Added ${product.name} to wishlist`)
     }
   }
 
@@ -322,7 +326,7 @@ const handleAddToCart = () => {
                 {product.stock === 0 ? "Out of Stock" : "Add to Cart"}
               </button>
 <button 
-                onClick={handleWishlistToggle}
+                onClick={handleToggleWishlist}
                 className={`w-full py-4 border-2 rounded-md transition-colors font-medium text-lg ${
                   isInWishlist 
                     ? 'bg-red-500 text-white border-red-500 hover:bg-red-600 hover:border-red-600' 

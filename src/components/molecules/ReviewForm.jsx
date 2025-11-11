@@ -26,7 +26,7 @@ const ReviewForm = ({ product, userEmail, userName, onReviewSubmitted, onCancel 
     setIsSubmitting(true)
 
     try {
-      await reviewService.create({
+await reviewService.create({
         productId: product.Id,
         userEmail,
         userName,
